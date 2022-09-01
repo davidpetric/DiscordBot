@@ -1,0 +1,26 @@
+{
+  "name": "DiscordBot",
+  "version": "1.0.0",
+  "description": "add discord token in `local.settings.json`:\r   ```\r   \"DiscordToken\": {\r     \"TokenValue\": \"token_here\"\r   },",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidpetric/DiscordBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidpetric/DiscordBot/issues"
+  },
+  "homepage": "https://github.com/davidpetric/DiscordBot#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3"
+  }
+}
